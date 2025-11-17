@@ -9,12 +9,13 @@ body {
 }
 
 body {
-    font-family: "Times New Roman", serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 32px 0;
+    background-color: black;
 }
 
 main {
@@ -22,6 +23,7 @@ main {
     width: 90%;
     padding: 16px;
     border: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: #aceeff;
 }
 
 h1 {
@@ -52,7 +54,7 @@ main>p {
 
 .collection-card {
     border: 1px solid rgba(0, 0, 0, 0.25);
-    background-color: #fafafa;
+    background-color: #50cceb;
     padding: 16px;
 }
 
