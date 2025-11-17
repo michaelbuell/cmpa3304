@@ -64,6 +64,11 @@ img {
     height: 100%;
     object-fit: cover;
     border-radius: 8%;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(110%);
 }
 
 section h2 {
@@ -101,6 +106,11 @@ section h2 {
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.skill-item:hover {
+    background-color: #073655;
 }
 
 .interests {
